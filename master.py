@@ -6,6 +6,7 @@ def myfunc(func):
 
 @myfunc
 def hello():
+    "running hello function..."
     print("hello world!")
 
 hello()
